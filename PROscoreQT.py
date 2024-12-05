@@ -21,4 +21,3 @@ def arduinoSerial_PrintMessage():
             print(f"Message Received: {msg_ToRead}")
 
 thread = threading.Thread(target=arduinoSerial_PrintMessage)
-thread.start()

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1012</width>
+    <height>493</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Auto-Resizing GUI</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url('files/BasketballBackground.jpg');
+background-repeat: no-repeat;
+background-size: 300px 200px; /* Adjust to your desired dimensions */
+background-position: center;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-image: url('files/BasketballBackground.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">background-color: lightblue;</string>
+      </property>
+      <property name="text">
+       <string>Resizable Label</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="button1">
+      <property name="styleSheet">
+       <string notr="true">background-color: lightgreen;</string>
+      </property>
+      <property name="text">
+       <string>Button 1</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="button2">
+      <property name="styleSheet">
+       <string notr="true">background-color: lightcoral;</string>
+      </property>
+      <property name="text">
+       <string>Button 2</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
